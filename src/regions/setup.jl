@@ -117,7 +117,7 @@ function processintervals(metabolite_regions::Vector{MetaboliteRegionType{T}},
 end
 
 # get total number of elements.
-function getnumelements(X::Vector{Vector{Vector{T}}})::Int where T
+function getnumelements(X::Vector{Vector{Vector{T}}}) where T
     return sum( sum( length(X[n][i]) for i = 1:length(X[n]) ) for n = 1:length(X) )
 end
 

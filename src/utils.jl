@@ -2,7 +2,7 @@
 # Copyright © 2024 Roy Chih Chung Wang <roy.c.c.wang@proton.me>
 
 
-function combinevectors(x::Vector{Vector{T}})::Vector{T} where T
+function combinevectors(x::Vector{Vector{T}}) where T
 
     if isempty(x)
         return Vector{T}(undef, 0)
