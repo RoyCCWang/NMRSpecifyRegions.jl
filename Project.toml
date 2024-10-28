@@ -1,0 +1,17 @@
+name = "NMRSpecifyRegions"
+uuid = "2c6f6ba7-1a3c-4d31-8511-d336c09a6ae6"
+authors = ["Roy Chih Chung Wang <roy.c.c.wang@proton.me>"]
+version = "0.1.1"
+
+[deps]
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+
+[compat]
+julia = "1"
+Graphs = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
